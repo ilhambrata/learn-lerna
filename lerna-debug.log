@@ -1,0 +1,16 @@
+0 silly input [ '@example-project/common' ]
+1 silly flags { _: [ 'import' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   pathToRepo: '@example-project/common' }
+2 verbose rootPath C:\Users\ASEP\Documents\Luxi\examples-lerna
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Users\ASEP\Documents\Luxi\examples-lerna\VERSION
+7 info versioning independent
+8 silly initialize attempt
+9 silly statSync C:\Users\ASEP\Documents\Luxi\examples-lerna\@example-project\common
+10 error initialize callback with error
+11 error Error: No repository found at "@example-project/common"
+11 error     at ImportCommand.initialize (C:\Users\ASEP\Documents\Luxi\examples-lerna\node_modules\lerna\lib\commands\ImportCommand.js:121:27)
